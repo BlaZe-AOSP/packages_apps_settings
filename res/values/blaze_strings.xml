@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Blaze version in About phone -->
+    <string name="rom_version_title">Blaze version</string>
+
     <!-- SELinux status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
