@@ -149,6 +149,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.blaze.flames.Ignited;
+import com.blaze.flames.fragments.GlobalActionsSettings;
 
 public class SettingsGateway {
 
@@ -286,7 +287,8 @@ public class SettingsGateway {
             BatterySaverScheduleSettings.class.getName(),
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
-            Ignited.class.getName()
+            Ignited.class.getName(),
+            GlobalActionsSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -326,5 +328,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.FlamesActivity.class.getName(),
+            Settings.GlobalActionsSettingsActivity.class.getName(),
     };
 }

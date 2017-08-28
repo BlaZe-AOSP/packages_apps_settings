@@ -179,4 +179,7 @@ public class Settings extends SettingsActivity {
 
     // Blaze aditional Additions.
     public static class FlamesActivity extends SettingsActivity {}
+
+    // Custom dashboard settings
+    public static class GlobalActionsSettingsActivity extends SettingsActivity { /* empty */ }
 }
