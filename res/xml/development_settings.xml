@@ -93,6 +93,18 @@
             android:title="@string/picture_color_mode"
             android:summary="@string/picture_color_mode_desc" />
 
+        <Preference
+            android:key="global_actions"
+            android:title="@string/global_actions_title"
+            android:summary="@string/global_actions_summary"
+            android:fragment="com.android.settings.blaze.GlobalActionsSettings" />
+
+        <com.android.settings.blaze.preferences.SystemSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/global_actions_advanced_reboot_title"
+            android:summary="@string/global_actions_advanced_reboot_summary"
+            android:defaultValue="true" />
+
         <Preference android:key="select_webview_provider"
                     android:title="@string/select_webview_provider_title"
                     android:dialogTitle="@string/select_webview_provider_dialog_title"
