@@ -47,6 +47,15 @@
         android:summary="@string/app_and_notification_dashboard_summary"/>
 
     <Preference
+        android:fragment="com.blaze.flames.Ignited"
+        android:icon="@drawable/ic_settings_flamez"
+        android:key="top_level_flames"
+        android:order="-125"
+        android:title="@string/blaze_flames_title"
+        android:summary="@string/blaze_flames_summary"
+        settings:controller="com.blaze.flames.TopLevelFlamesEntryPreferenceController"/>
+
+    <Preference
         android:fragment="com.android.settings.notification.ConfigureNotificationSettings"
         android:icon="@drawable/ic_notifications"
         android:key="top_level_notification"

@@ -44,10 +44,17 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: [
+	"src/**/*.java",
+	"src_flames/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.blaze.flames"],
+
     resource_dirs: [
-        "res",
-        "res-pixel",
+	"res",
+	"res-pixel",
+        "res-flames",
     ],
 
     static_libs: [
@@ -88,6 +95,10 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
 }
 
 platform_compat_config {
