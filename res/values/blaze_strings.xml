@@ -37,4 +37,8 @@
 
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
+
+    <!-- Blaze Flames -->
+    <string name="blaze_flames_title">Flames</string>
+    <string name="blaze_flames_summary">Be Ignited!!!</string>
 </resources>
