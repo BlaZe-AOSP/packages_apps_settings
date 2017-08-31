@@ -3276,5 +3276,22 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Blaze Flames activity -->
+        <activity android:name=".Settings$BlazeFlamesActivity"
+                  android:label="@string/blaze_flames_title"
+                  android:icon="@drawable/ic_homepage_flames"
+                  android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="10">
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                       android:value="com.android.settings.category.ia.homepage"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.blaze.flames.Ignited"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/blaze_flames_summary"/>
+        </activity>
+
     </application>
 </manifest>

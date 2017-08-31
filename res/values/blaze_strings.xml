@@ -28,4 +28,9 @@
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
+
+    <!-- Blaze Flames -->
+    <string name="blaze_flames_title">Blaze Flames</string>
+    <string name="blaze_flames_summary">Lets Get Ignited</string>
+
 </resources>
