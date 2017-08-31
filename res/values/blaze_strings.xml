@@ -49,4 +49,8 @@
     <string name="global_actions_emergency">Emergency</string>
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
+
+    <!-- Blaze Flames -->
+    <string name="blaze_flames_title">Personalization</string>
+    <string name="blaze_flames_summary">Additional settings</string>
 </resources>
