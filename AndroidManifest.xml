@@ -3278,8 +3278,8 @@
         <!-- BlazeFlamess -->
         <activity android:name=".Settings$BlazeFlamesActivity"
             android:label="@string/blaze_flames_title"
-            android:icon="@drawable/ic_flames_blaze"
-            android:taskAffinity="">
+            android:icon="@drawable/ic_homepage_blaze"
+            android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
                 <action android:name="com.blaze.flames.BlazeFlames" />
                 <category android:name="android.intent.category.DEFAULT" />
