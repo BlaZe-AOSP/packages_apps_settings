@@ -17,4 +17,7 @@
 
     <!-- Blaze version preference -->
     <string name="Blaze_version">"Blaze-AOSP Version"</string>
+  
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
 </resources>
