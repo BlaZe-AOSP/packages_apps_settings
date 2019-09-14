@@ -3279,28 +3279,13 @@
         <activity android:name=".Settings$BlazeFlamesActivity"
             android:label="@string/blaze_flames_title"
             android:icon="@drawable/ic_homepage_blaze"
-            android:taskAffinity="com.android.settings">
-            <intent-filter android:priority="1">
-                <action android:name="com.blaze.flames.BlazeFlames" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="69">
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.VOICE_LAUNCH" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-            <intent-filter android:priority="-3">
-                <action android:name="com.android.settings.action.SETTINGS" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.blaze.flames.BlazeFlames" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
-            <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/blaze_flames_summary"/>
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
