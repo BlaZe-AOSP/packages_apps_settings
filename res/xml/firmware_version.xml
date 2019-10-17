@@ -22,13 +22,19 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Android version -->
+    <!-- Android version
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/> -->
+
+    <!-- Blaze logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="blaze_logo"
+        android:layout="@layout/blaze_logo"
+        android:selectable="false"/>
 
     <!-- Security patch -->
     <Preference
