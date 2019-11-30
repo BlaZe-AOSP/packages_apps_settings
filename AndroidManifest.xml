@@ -3278,7 +3278,7 @@
         <!-- This is the longest AndroidManifest.xml ever. -->
 
         <!-- Blaze Flames activity -->
-        <activity android:name=".Settings$BlazeFlamesActivity"
+        <activity android:name=".Settings$FlamesActivity"
                   android:label="@string/blaze_flames_title"
                   android:icon="@drawable/ic_homepage_flames"
                   android:parentActivityName="com.android.settings">
