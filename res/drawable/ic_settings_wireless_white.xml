@@ -1,19 +1,23 @@
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-<com.android.settings.widget.TintDrawable
+<vector
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/ic_settings_wireless"
-    android:tint="@android:color/white" />
+    android:name="vector"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:name="path"
+        android:pathData="M 0.514 7.003 C 7.072 1.043 16.999 1.068 23.526 7.063 C 23.527 7.063 23.528 7.065 23.528 7.065 C 23.811 7.324 23.981 7.689 23.998 8.076 C 24.015 8.463 23.88 8.842 23.621 9.127 L 12.752 21.107 C 12.554 21.325 12.275 21.45 11.982 21.45 C 11.69 21.45 11.41 21.325 11.213 21.107 L 0.397 9.186 C 0.125 8.886 -0.018 8.488 0.002 8.08 C 0.021 7.672 0.201 7.288 0.5 7.016 C 0.504 7.012 0.51 7.008 0.514 7.003 Z"
+        android:fillColor="#ffffff"
+        android:strokeWidth="1"/>
+    <path
+        android:name="path_1"
+        android:pathData="M 12.006 15.123 C 11.631 15.122 11.265 15.243 10.962 15.469 C 10.658 15.695 10.432 16.015 10.316 16.381 C 10.2 16.748 10.2 17.143 10.316 17.51 C 10.432 17.877 10.658 18.196 10.962 18.422 C 11.265 18.649 11.631 18.77 12.006 18.769 C 12.38 18.77 12.746 18.649 13.049 18.422 C 13.353 18.196 13.579 17.877 13.695 17.51 C 13.811 17.143 13.811 16.748 13.695 16.381 C 13.579 16.015 13.353 15.695 13.049 15.469 C 12.746 15.243 12.38 15.122 12.006 15.123 Z"
+        android:fillColor="#616161"
+        android:strokeWidth="1"/>
+    <path
+        android:name="path_2"
+        android:pathData="M 6.559 11.698 C 6.21 11.948 5.989 12.33 5.952 12.747 C 5.914 13.164 6.064 13.576 6.363 13.88 C 6.348 13.894 6.35 13.895 6.35 13.896 C 6.799 14.352 7.535 14.408 8.054 14.024 C 10.398 12.299 13.589 12.299 15.943 14.012 C 16.456 14.391 17.183 14.336 17.628 13.884 C 17.64 13.894 17.641 13.893 17.641 13.893 C 17.944 13.585 18.096 13.167 18.058 12.745 C 18.021 12.322 17.797 11.935 17.444 11.682 C 14.179 9.39 9.817 9.39 6.559 11.698 Z M 2.52 7.878 C 2.225 8.13 2.048 8.487 2.03 8.866 C 2.013 9.246 2.157 9.615 2.428 9.892 C 2.42 9.899 2.421 9.899 2.421 9.9 C 2.922 10.408 3.75 10.445 4.297 9.983 C 8.767 6.274 15.219 6.274 19.697 9.975 C 20.241 10.433 21.063 10.397 21.561 9.891 L 21.569 9.898 C 21.843 9.621 21.987 9.248 21.969 8.865 C 21.953 8.483 21.774 8.124 21.477 7.87 C 15.979 3.292 8.018 3.292 2.52 7.878 Z"
+        android:fillColor="#e0e0e0"
+        android:strokeWidth="1"/>
+</vector>

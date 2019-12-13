@@ -1,31 +1,43 @@
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24dp"
-        android:height="24dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0">
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
     <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M3,9v6h4l5,5V4L7,9H3zM10,8.83v6.34L7.83,13H5v-2h2.83L10,8.83z"/>
+        android:name="path"
+        android:pathData="M 21 4.6 C 21 2.613 19.387 1 17.4 1 L 6.6 1 C 4.613 1 3 2.613 3 4.6 L 3 19.4 C 3 21.387 4.613 23 6.6 23 L 17.4 23 C 19.387 23 21 21.387 21 19.4 L 21 4.6 Z"
+        android:fillColor="#ffffff"
+        android:strokeWidth="1"/>
     <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M16.5,12c0,-1.77 -1.02,-3.29 -2.5,-4.03v8.05C15.48,15.29 16.5,13.77 16.5,12z"/>
+        android:name="path_1"
+        android:pathData="M 12.007 2.737 C 10.951 2.736 9.922 3.07 9.067 3.691 C 8.213 4.311 7.577 5.187 7.25 6.191 C 6.924 7.195 6.924 8.277 7.25 9.282 C 7.577 10.286 8.213 11.161 9.067 11.782 C 9.922 12.402 10.951 12.736 12.007 12.736 C 13.063 12.736 14.093 12.402 14.947 11.782 C 15.802 11.161 16.438 10.286 16.764 9.282 C 17.091 8.277 17.091 7.195 16.764 6.191 C 16.438 5.187 15.802 4.311 14.947 3.691 C 14.093 3.07 13.063 2.736 12.007 2.737 Z"
+        android:fillColor="#e0e0e0"
+        android:strokeWidth="1"/>
     <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M14,3.23v2.06c2.89,0.86 5,3.54 5,6.71c0,3.17 -2.11,5.85 -5,6.71v2.06c4.01,-0.91 7,-4.49 7,-8.77C21,7.72 18.01,4.14 14,3.23z"/>
+        android:name="path_2"
+        android:pathData="M 12 4.736 C 11.366 4.736 10.749 4.937 10.236 5.309 C 9.723 5.681 9.341 6.206 9.146 6.809 C 8.95 7.412 8.95 8.061 9.146 8.664 C 9.341 9.266 9.723 9.792 10.236 10.164 C 10.749 10.536 11.366 10.737 12 10.736 C 12.634 10.737 13.252 10.536 13.764 10.164 C 14.277 9.792 14.659 9.266 14.855 8.664 C 15.051 8.061 15.051 7.412 14.855 6.809 C 14.659 6.206 14.277 5.681 13.764 5.309 C 13.252 4.937 12.634 4.736 12 4.736 Z"
+        android:fillColor="#616161"
+        android:strokeWidth="1"/>
+    <path
+        android:name="path_3"
+        android:pathData="M 13.007 15.27 C 13.007 14.715 12.556 14.264 12 14.264 C 11.444 14.264 10.993 14.715 10.993 15.27 L 10.993 20.256 C 10.993 20.813 11.444 21.264 12 21.264 C 12.556 21.264 13.007 20.813 13.007 20.256 L 13.007 15.27 Z"
+        android:fillColor="#e0e0e0"
+        android:strokeWidth="1"/>
+    <path
+        android:name="path_4"
+        android:pathData="M 16.007 16.27 C 16.007 15.715 15.556 15.264 15 15.264 C 14.444 15.264 13.993 15.715 13.993 16.27 L 13.993 19.257 C 13.993 19.812 14.444 20.264 15 20.264 C 15.556 20.264 16.007 19.812 16.007 19.257 L 16.007 16.27 Z"
+        android:fillColor="#616161"
+        android:strokeWidth="1"/>
+    <path
+        android:name="path_5"
+        android:pathData="M 19.007 17.271 C 19.007 16.715 18.556 16.264 18 16.264 C 17.444 16.264 16.993 16.715 16.993 17.271 L 16.993 18.257 C 16.993 18.813 17.444 19.264 18 19.264 C 18.556 19.264 19.007 18.813 19.007 18.257 L 19.007 17.271 Z M 7.007 17.271 C 7.007 16.715 6.556 16.264 6 16.264 C 5.444 16.264 4.993 16.715 4.993 17.271 L 4.993 18.257 C 4.993 18.813 5.444 19.264 6 19.264 C 6.556 19.264 7.007 18.813 7.007 18.257 L 7.007 17.271 Z"
+        android:fillColor="#e0e0e0"
+        android:strokeWidth="1"/>
+    <path
+        android:name="path_6"
+        android:pathData="M 10.007 16.27 C 10.007 15.715 9.556 15.264 9 15.264 C 8.444 15.264 7.993 15.715 7.993 16.27 L 7.993 19.257 C 7.993 19.812 8.444 20.264 9 20.264 C 9.556 20.264 10.007 19.812 10.007 19.257 L 10.007 16.27 Z"
+        android:fillColor="#616161"
+        android:strokeWidth="1"/>
 </vector>
