@@ -27,4 +27,8 @@
     <!-- Whether to show or hide sensitive info (like IMEI and Phone Number) on About phone -->
     <bool name="configShowDeviceSensitiveInfo">false</bool>
 
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="config_backup_settings_label" msgid="1623475653989899715"></string>
+    <string name="config_grayscale_settings_intent" msgid="5355804456020511993"></string>
 </resources>
