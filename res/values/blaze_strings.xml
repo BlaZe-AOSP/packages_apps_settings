@@ -42,4 +42,7 @@
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>
