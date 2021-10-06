@@ -14,4 +14,7 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- Blaze version preference -->
+    <string name="Blaze_version">"Blaze-AOSP Version"</string>
 </resources>
