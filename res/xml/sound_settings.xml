@@ -143,6 +143,14 @@
         android:order="-90"
         settings:controller="com.google.android.settings.accessibility.VibrationPreferenceController"/>
 
+    <!-- Vibration intensity preference -->
+    <Preference
+        android:key="vibration_intensity"
+        android:title="@string/vibration_intensity_title"
+        android:summary="@string/vibration_intensity_summary"
+        android:order="-87"
+        android:fragment="com.android.settings.sound.VibrationIntensityFragment" />
+
     <com.android.settings.widget.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_sound"
         android:title="@string/gesture_prevent_ringing_sound_title"
