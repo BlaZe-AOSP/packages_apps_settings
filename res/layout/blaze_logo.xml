@@ -23,7 +23,6 @@
             android:layout_height="200dp"
             android:scaleType="centerInside"
             android:adjustViewBounds="true"
-            android:src="@drawable/ic_blaze_logo"
-            android:tint="?android:attr/colorAccent" />
+            android:src="@drawable/ic_blaze_logo" />
 
 </LinearLayout>
